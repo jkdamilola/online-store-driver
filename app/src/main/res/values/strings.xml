@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Ninepm Driver</string>
+    <string name="invalidtokencontent">Invalid Access Token</string>
+    <string name="invalidtoken">Login</string>
+    <string name="loginusername">Username</string>
+    <string name="loginpassword">Password</string>
+    <string name="forgotpassword">Forgot Password?</string>
+    <string name="storenames">Store Name</string>
+    <string name="date">11 dec 2015 16:00</string>
+    <string name="ordersnumbers">Order No. #122</string>
+    <string name="revieworders">Review Order</string>
+    <string name="customers">Customer</string>
+    <string name="JackmanPollack">Jackman Pollack</string>
+    <string name="completes">Complete</string>
+    <string name="text_save"><u>Save</u></string>
+    <string name="text_later">OK</string>
+    <string name="deliverylocations">Delivery Locations</string>
+    <string name="accounts">My Account</string>
+    <string name="cancel">Cancel</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="next">Next</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="check_email">Check your email</string>
+    <string name="enter_code">Enter code</string>
+    <string name="verification">Verification Code</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm">Confirm New Password</string>
+</resources>

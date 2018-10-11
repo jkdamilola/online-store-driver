@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "375589512851",
+    "project_id": "firebase-pmonline"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375589512851:android:7df054368e44b25f",
+        "android_client_info": {
+          "package_name": "com.ninepmonline.ninepmdriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375589512851-0qhh7vgfgn4hkb3rqq161tlb6eirdrc2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0f9aLNPYNP7QggIGp7ilk8BavGLxb3do"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

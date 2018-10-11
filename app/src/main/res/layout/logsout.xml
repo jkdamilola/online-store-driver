@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:background="@drawable/white_rounds" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0sp">
+        <TextView android:textSize="18.0sp" android:gravity="center" android:id="@+id/textview__header" android:padding="13.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Sign Out" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@+id/relativelayout" android:background="@color/soft_gray" android:layout_width="fill_parent" android:layout_height="0.9dip" android:layout_below="@id/textview__header" />
+        <TextView android:textSize="16.0sp" android:gravity="center" android:id="@+id/textview__messages" android:padding="18.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Are you sure you want to Sign Out?" android:layout_below="@id/textview__header" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@+id/rl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/textview__messages">
+            <Button android:textSize="16.0sp" android:textColor="@color/blue" android:gravity="center" android:id="@+id/button_cancel" android:background="@color/transy" android:padding="13.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Stay In" android:layout_toLeftOf="@+id/framelayout" android:layout_alignParentLeft="true" />
+            <FrameLayout android:gravity="center" android:id="@+id/framelayout" android:background="#ffe2e2e2" android:clipToPadding="true" android:layout_width="0.9dip" android:layout_height="39.0sp" android:layout_centerInParent="true" android:foregroundGravity="center" />
+            <Button android:textSize="16.0sp" android:textColor="@color/red" android:gravity="center" android:id="@+id/button_ok" android:background="@color/transy" android:padding="13.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Sign Out" android:layout_toRightOf="@id/framelayout" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

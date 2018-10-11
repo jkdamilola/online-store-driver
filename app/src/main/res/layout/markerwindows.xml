@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@+id/relativelayout_offer" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/imageview_offers" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@drawable/default_store_icon" android:scaleType="fitXY" />
+        <RelativeLayout android:id="@+id/relativelayout_offermaptext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/imageview_offers" android:layout_alignParentTop="true">
+            <TextView android:textSize="13.0sp" android:textColor="#ff525d75" android:id="@+id/textview_offer_map_list_headings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="East Clinton" android:layout_alignParentTop="true" />
+            <TextView android:textSize="13.0sp" android:textColor="#fff9b495" android:id="@+id/textview_mappriceoffer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="$ 000" android:layout_below="@id/textview_offer_map_list_headings" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

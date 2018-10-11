@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/white_rounds" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="11.0sp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@+id/listview_dialog" android:layout_width="fill_parent" android:layout_height="380.0sp" android:divider="#ffeeeeee" android:dividerHeight="1.0sp" android:layout_above="@id/relativelayout" android:layout_alignParentTop="true" />
+    <RelativeLayout android:id="@id/relativelayout" android:background="@color/soft_gray" android:layout_width="fill_parent" android:layout_height="0.9dip" android:layout_above="@+id/ll_btn" />
+    <LinearLayout android:orientation="horizontal" android:id="@+id/ll_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_alignParentBottom="true"
+        android:baselineAligned="false">
+        <RelativeLayout android:id="@+id/rl_later" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.5">
+            <TextView android:textSize="15.0sp" android:gravity="center" android:id="@+id/textviewlater" android:padding="11.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_later" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/rl_save" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.5" android:visibility="gone">
+            <TextView android:textSize="15.0sp" android:textColor="@color/green" android:gravity="center" android:id="@+id/textviewdone" android:padding="11.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_save" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@+id/relativelayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <ImageView android:id="@+id/imagetoken" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/session_expire" android:layout_centerHorizontal="true"
+            android:contentDescription="" />
+        <TextView android:textSize="18.0sp" android:textColor="#ffa5a5a5" android:id="@+id/textview_token" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0sp" android:text="Session Expired" android:layout_below="@id/imagetoken" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="13.0sp" android:textColor="#ffa5a5a5" android:id="@+id/textview_login" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0sp" android:text="@string/invalidtokencontent" android:layout_below="@id/textview_token" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <Button android:textSize="18.0sp" android:textColor="@color/white" android:id="@+id/buttonlogin" android:background="@drawable/green_withoutrounded_selectors" android:paddingTop="18.0sp" android:paddingBottom="18.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/invalidtoken" android:layout_alignParentBottom="true" />
+</RelativeLayout>
